@@ -40,3 +40,23 @@ h1 {
   line-height: 27px;
   padding: 10px 15px;
 }
+
+.content {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: 100px 0;
+  padding: 50px;
+}
+
+.content h4 {
+  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
+    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+}
+
+.row {
+  text-align: center;
+}
+
+.img-fluid {
+  height: 250px;
+}
