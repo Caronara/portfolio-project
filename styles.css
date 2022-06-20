@@ -53,7 +53,7 @@ h1 {
     -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
 }
 
-.row {
+.content-container {
   text-align: center;
 }
 
@@ -61,3 +61,31 @@ h1 {
   height: 250px;
 }
 
+.portfolio-image {
+  height: 400px;
+}
+
+.about-content h1,
+h2,
+p {
+  text-align: left;
+}
+
+.about-content h1 {
+  color: var(--accent-color);
+  font-family: var(--content-font-family);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.about-content h2 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  text-shadow: -1.5px -1.5px 0 var(--accent-color),
+    1.5px -1.5px 0 var(--accent-color), -1.5px 1.5px 0 var(--accent-color),
+    1.5px 1.5px 0 var(--accent-color);
+}
+
+.icon {
+  font-size: 50px;
+}
