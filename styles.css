@@ -44,30 +44,33 @@ h1 {
 .content {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  margin: 100px 0;
+  margin-top: 36px;
   padding: 50px;
-}
-
-.content h4 {
-  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
-    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
 }
 
 .content-container {
   text-align: center;
 }
 
-.img-fluid {
-  height: 250px;
+
+
+.content-container img {
+  filter: grayscale(70%);
+}
+
+.content-container img:hover {
+  filter: grayscale(0);
+  transition: filter 50ms ease-in-out;
 }
 
 .portfolio-image {
-  height: 400px;
+  max-height: 480px;
 }
 
 .about-content h1,
 h2,
-p {
+p,
+.work-content {
   text-align: left;
 }
 
@@ -87,5 +90,28 @@ p {
 }
 
 .icon {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.work-content h1 {
+  color: var(--accent-color);
+  font-family: var(--content-font-family);
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.work-content h2 {
+  margin-bottom: 20px;
+  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
+    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+}
+
+.work-content .container {
+  max-width: 800px;
+}
+
+.work-content .row {
+  margin-bottom: 100px;
 }
