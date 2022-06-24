@@ -4,10 +4,45 @@
   --primary-color: white;
   --secondary-color: #37383d;
   --accent-color: #a78341;
+  --tertiary-color: black;
 }
 
 body {
   font-family: var(--content-font-family);
+}
+
+nav {
+  background-color: var(--tertiary-color);
+}
+
+nav .logo {
+  color: var(--accent-color);
+  font-family: 'Parisienne', cursive;
+  font-size: 38px;
+  font-weight: bolder;
+  line-height: 60px;
+  padding-left: 80px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+nav ul {
+  margin: 0;
+  padding-right: 80px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 60px;
+
 }
 
 .hero {
@@ -51,8 +86,6 @@ h1 {
 .content-container {
   text-align: center;
 }
-
-
 
 .content-container img {
   filter: grayscale(70%);
@@ -115,7 +148,7 @@ p,
 .work-content .row {
   margin-bottom: 100px;
 }
- 
+
 .contact-content {
   padding-bottom: 200px;
 }
@@ -126,7 +159,6 @@ p,
   font-size: 55px;
   font-weight: bold;
   margin-bottom: 80px;
-  
 }
 
 .contact-content h2 {
@@ -150,4 +182,3 @@ p,
   margin-right: 21px;
   padding-top: 4px;
 }
-
