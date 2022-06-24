@@ -155,6 +155,10 @@ p,
   margin-bottom: 100px;
 }
 
+.work-button {
+  margin-top: 10px;
+}
+
 .contact-content {
   padding-bottom: 200px;
 }
@@ -220,4 +224,30 @@ footer .icon {
 
 footer a:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 576px) {
+  nav li {
+    margin-left: 16px;
+  }
+  footer div {
+    padding: 0px;
+  }
+
+  footer p {
+    padding: 0px;
+  }
+
+  footer .icon {
+    margin-left: -7px;
+  }
+
+  .about-content h1,
+  h2 {
+    text-align: center;
+  }
+
+  .work-button {
+    margin-top: 38px;
+  }
 }
