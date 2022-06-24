@@ -18,7 +18,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/d5d50a5661.js"
       crossorigin="anonymous"
@@ -29,6 +32,25 @@
     <title>Caroline - About me</title>
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <div>
+        <a href="/" title="Homepage" class="logo"> C </a>
+      </div>
+      <ul>
+        <li class="active">
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Caroline" class="active"> About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Caroline's work"> Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Caroline"> Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="content">
       <div class="container about-content">
         <div class="row">
@@ -77,5 +99,24 @@
         <a href="/work.html" class="btn btn-branding mt-3">See my work</a>
       </div>
     </div>
+    <footer class="d-flex justify-content-between">
+      <div>
+        <a href="mailto:caroline.werkowitsch@gmail.com" title="Email">
+          <i class="fas fa-envelope email-icon"></i
+        ></a>
+        <a href="https://github.com/Caronara" title="GitHub" target="_blank">
+          <i class="fab fa-github-square icon" title="GitHub"></i
+        ></a>
+      </div>
+      <p>
+        <a
+          href="https://github.com/Caronara/portfolio-project"
+          title="GitHub link"
+          target="_blank"
+          >Open source code</a
+        >
+        by Caroline
+      </p>
+    </footer>
   </body>
 </html>

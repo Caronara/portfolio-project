@@ -17,7 +17,7 @@ nav {
 
 nav .logo {
   color: var(--accent-color);
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-size: 38px;
   font-weight: bolder;
   line-height: 60px;
@@ -42,14 +42,17 @@ nav li {
   list-style: none;
   line-height: 60px;
   margin-left: 60px;
+}
 
+nav .active {
+  color: var(--accent-color);
 }
 
 .hero {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   text-align: center;
-  padding: 40px;
+  padding: 66px;
 }
 
 .hero p {
@@ -79,7 +82,6 @@ h1 {
 .content {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  margin-top: 36px;
   padding: 50px;
 }
 
@@ -127,18 +129,22 @@ p,
 }
 
 .work-content h1 {
-  color: var(--accent-color);
-  font-family: var(--content-font-family);
-  font-size: 55px;
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 80px;
   text-align: center;
+  text-shadow: -1.5px -1.5px 0 var(--accent-color),
+    1.5px -1.5px 0 var(--accent-color), -1.5px 1.5px 0 var(--accent-color),
+    1.5px 1.5px 0 var(--accent-color);
 }
 
 .work-content h2 {
+  color: var(--accent-color);
+  font-size: 35px;
+  font-weight: bold;
   margin-bottom: 20px;
-  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
-    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
 }
 
 .work-content .container {
@@ -156,7 +162,7 @@ p,
 .contact-content h1 {
   color: var(--accent-color);
   font-family: var(--content-font-family);
-  font-size: 55px;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 80px;
 }
@@ -180,5 +186,38 @@ p,
 .email-icon {
   font-size: 26px;
   margin-right: 21px;
+  padding-top: 6px;
+}
+
+footer {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  padding: 5px;
+}
+
+footer a {
+  color: var(--primary-color);
+  line-height: 30px;
+  text-decoration: none;
+}
+
+footer div {
+  padding-left: 80px;
+  padding-top: 5px;
+}
+
+footer p {
+  font-size: 14px;
+  padding-right: 80px;
+  padding-top: 5px;
+}
+
+footer .icon {
+  font-size: 26px;
+  margin-left: 21px;
   padding-top: 4px;
+}
+
+footer a:hover {
+  color: var(--accent-color);
 }
