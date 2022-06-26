@@ -188,9 +188,8 @@ p,
 }
 
 .email-icon {
-  font-size: 32px;
+  font-size: 27px;
   margin-right: 21px;
-  
 }
 
 footer {
@@ -250,7 +249,4 @@ footer a:hover {
   .work-button {
     margin-top: 38px;
   }
-
- 
-
 }
